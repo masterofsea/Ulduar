@@ -8,8 +8,10 @@ namespace Prefabs.Characters.MainCharacter.Scripts
         private InputActions _playerInput;
         private Animator _animator;
         private CharacterController _characterController;
+        
         private Vector2 _currentMovementInput;
         private Vector3 _currentMovement;
+        
         private float _rotationFactorPerFrame = 15.0f;
         private bool _isMovementPressed;
         private float _runFactor = 3.0f;
